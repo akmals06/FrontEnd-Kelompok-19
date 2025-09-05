@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simulasi Sensor Cahaya - Kelompok 19</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/script.js" defer></script>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Simulasi Sensor Cahaya - Kelompok 19</h1>
+    <ul>
+      <li>Rifqy Aris</li>
+      <li>Akmal Fadhlul Rohman</li>
+    </ul>
+  </div>
+
+  <div class="container">
+
+    <div>
+      <h2>Panduan Demo Progran</h2><hr><br>
+      <p>Ikuti langkah berikut untuk mencoba sensor cahaya daeri  kami:</p><br>
+      <ol>
+        <li>Klik tombol <b>Mulai</b> lalu izinkan akses kamera.</li>
+        <li>Mainkan kamera dengan tangan atau menggunakan cahaya, agar bisa terlihat sensornya</li>
+        <li>Jika lampu Kuning yang Menyala = cahaya area sekitar gelap/kurang pencahayaan,<br>Jika lampu Abu abu yang menyala = keadaan cahaya sekitar cukup (terang).</li>
+        <li>Jika sudah selesai mendemokan apkny tekan tombol <b>Beberhenti</b>.</li>
+      </ol>
+    </div>
+
+    <div>
+      <h2 class="h2">Aplikasi Sensor Cahaya</h2>
+
+      <div>
+        <div class="lampu off" aria-label="indikator lampu"></div>
+        <p class="status">Status: belum aktif</p>
+
+        <div>
+          <button class="mulai" type="button">Mulai</button>
+          <button class="berhenti" type="button">Berhenti</button>
+          <span>Kecerahan: <b class="nilaikecerahan">—</b></span>
+          <span>Batas cahaya: <b class="nilaibatas">60</b></span>
+        </div>
+      </div>
+      <video class="videokamera sembunyi" autoplay playsinline muted></video>
+      <canvas class="kanvas sembunyi" width="160" height="120"></canvas>
+    </div>
+  </div>
+</body>
+</html>
