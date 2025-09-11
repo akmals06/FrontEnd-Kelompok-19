@@ -1,0 +1,150 @@
+* { 
+  box-sizing: border-box; 
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1220;
+  color: #e6edf6;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(#0d172a, #400909);
+  border-bottom: 1px solid #1e2a44;
+}
+
+.headerh2 {
+  text-align: center;
+}
+
+.header h1 { 
+  margin: 0; 
+  font-size: 22px; 
+}
+
+.header ul { 
+  list-style: none; 
+  margin: 8px 0 0; 
+  padding: 0; 
+}
+
+.header li { 
+  margin: 4px 0; 
+  color: #ffffff; 
+}
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.container > div {
+  background: #111a2b;
+  border: 1px solid #1e2a44;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.container > div:last-child {
+  text-align: center;
+}
+
+
+.h2 { 
+  margin-top: 0; 
+}
+
+.headerh2::hover{
+  background-color: #c7d2fe;
+}
+
+.container ol { 
+  margin-left: 20px; 
+}
+
+.status {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 10px auto;
+  border: 1px solid #1e2a44;
+  border-radius: 15px;
+  background: #0e1830;
+  font-size: 13px;
+  text-align: center;
+}
+
+.lampu {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 auto 12px auto;
+  border: 3px solid #000;
+  background: #0f1728;
+}
+.lampu.on { 
+  background: #fff7cc; 
+  border-color: #b59f4a; 
+}
+
+.lampu.off { 
+  background: #0f1728; 
+}
+
+.mulai, .berhenti {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 5px;
+}
+.mulai { 
+  background: #1e2a44; 
+  color: #fff; 
+}
+
+.mulai:hover { 
+  background: #2c3e66; 
+}
+
+.berhenti { 
+  background: #5c2626; 
+  color: #fff; 
+}
+
+.berhenti:hover { 
+  background: #7a3030; 
+}
+
+.nilaikecerahan { 
+  color: #c7d2fe; 
+}
+
+.nilaibatas { 
+  display: none; 
+}
+
+.videokamera, .kanvas {
+  width: 100%;
+  max-height: 300px;
+  margin-top: 12px;
+  border-radius: 8px;
+  background: #000;
+}
+
+.sembunyi {
+  display: none; 
+}
+
+@media (min-width: 900px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
