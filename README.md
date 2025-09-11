@@ -1,18 +1,18 @@
 # FrontEnd-Kelompok-19
 
 Proyek ini dibuat sebagai tugas mata kuliah **Front-End Web Development**.  
-Tema project kami adalah **Simulasi Sensor Cahaya**, di mana website ini dapat mendeteksi intensitas cahaya dari kamera laptop/HP dan menyalakan/mematikan lampu virtual sesuai kondisi cahaya.
+Tema project kami adalah **Simulasi Sensor Cahaya**, di mana website ini dapat mendeteksi intensitas cahaya dari kamera laptop menyalakan/mematikan lampu virtual sesuai kondisi cahaya.
 
 ---
 
 ## 👥 Anggota Kelompok 19
-- Rifqy Aris  
+- Rifqy Aris Widiantoro
 - Akmal Fadhlul Rohman  
 
 ---
 
 ## 📌 Fitur Utama
-- Menggunakan **kamera** untuk mendeteksi intensitas cahaya.  
+- Menggunakan **kamera local** untuk mendeteksi intensitas cahaya.  
 - Lampu virtual akan:
   - **Menyala** jika ruangan gelap.  
   - **Mati** jika ruangan terang.  
@@ -20,7 +20,7 @@ Tema project kami adalah **Simulasi Sensor Cahaya**, di mana website ini dapat m
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Bahasa yang Digunakan
 - **HTML5** → Struktur halaman.  
 - **CSS3** → Desain tampilan.  
 - **JavaScript** → Logika deteksi cahaya & kontrol lampu.  
