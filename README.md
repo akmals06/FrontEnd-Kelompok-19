@@ -1,4 +1,4 @@
-# 🌞 FrontEnd-Kelompok-19 — Simulasi Sensor Cahaya
+# FrontEnd-Kelompok-19 — Simulasi Sensor Cahaya
 
 Proyek ini adalah tugas mata kuliah **Front-End**.  
 Website yang kami buat berfungsi untuk **mensimulasikan sensor cahaya** dengan memanfaatkan kamera laptop. Saat kamera mendeteksi kondisi gelap, lampu virtual akan menyala, dan kalau kondisi terang lampunya akan mati.
