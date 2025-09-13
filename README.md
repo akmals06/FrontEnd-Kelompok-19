@@ -14,10 +14,11 @@ Website yang kami buat berfungsi untuk **mensimulasikan sensor cahaya** dengan m
 ## 📷 Demo Program
 
 **Saat kondisi gelap:**  
-![Sensor Gelap](img/ss1.png)
+![Sensor Gelap](sensor-cahaya/img/ss1.png)
 
 **Saat kondisi terang:**  
-![Sensor Terang](img/ss2.png)
+![Sensor Terang](sensor-cahaya/img/ss2.png)
+
 
 ---
 
