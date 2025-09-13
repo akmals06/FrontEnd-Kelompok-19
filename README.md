@@ -20,7 +20,18 @@ Website yang kami buat berfungsi untuk **mensimulasikan sensor cahaya** dengan m
 ![Sensor Terang](sensor-cahaya/img/ss2.png)
 
 
----
+## 📂 Project Structure
+FrontEnd-Kelompok-19/
+├─ sensor-cahaya/
+│ ├─ css/ 
+│ ├─ html/
+│ │ └─ index.html
+│ ├─ img/ 
+│ │ ├─ ss1.png
+│ │ └─ ss2.png
+│ ├─ javascript/ 
+│ │ └─ script.js
+│ └─ README.md 
 
 ## 📌 Fitur Utama
 - Menggunakan kamera laptop untuk membaca intensitas cahaya.  
@@ -31,7 +42,7 @@ Website yang kami buat berfungsi untuk **mensimulasikan sensor cahaya** dengan m
 
 ---
 
-## 🛠️ Teknologi
+## 🛠️ Tech
 - **HTML5** → struktur halaman  
 - **CSS3** → styling tampilan  
 - **JavaScript** → logika sensor dan kontrol lampu  
