@@ -1,33 +1,43 @@
-# FrontEnd-Kelompok-19
+# 🌞 FrontEnd-Kelompok-19 — Simulasi Sensor Cahaya
 
-Proyek ini dibuat sebagai tugas mata kuliah **Front-End Web Development**.  
-Tema project kami adalah **Simulasi Sensor Cahaya**, di mana website ini dapat mendeteksi intensitas cahaya dari kamera laptop menyalakan/mematikan lampu virtual sesuai kondisi cahaya.
+Proyek ini adalah tugas mata kuliah **Front-End**.  
+Website yang kami buat berfungsi untuk **mensimulasikan sensor cahaya** dengan memanfaatkan kamera laptop. Saat kamera mendeteksi kondisi gelap, lampu virtual akan menyala, dan kalau kondisi terang lampunya akan mati.
 
 ---
 
 ## 👥 Anggota Kelompok 19
-- Rifqy Aris Widiantoro
+- Rifqy Aris Widiantoro  
 - Akmal Fadhlul Rohman  
 
 ---
 
-## 📌 Fitur Utama
-- Menggunakan **kamera local** untuk mendeteksi intensitas cahaya.  
-- Lampu virtual akan:
-  - **Menyala** jika ruangan gelap.  
-  - **Mati** jika ruangan terang.  
-- Tampilan web sederhana, interaktif, dan mudah digunakan.  
+## 📷 Demo Program
+
+**Saat kondisi gelap:**  
+![Sensor Gelap](img/ss1.png)
+
+**Saat kondisi terang:**  
+![Sensor Terang](img/ss2.png)
 
 ---
 
-## 🛠️ Bahasa yang Digunakan
-- **HTML5** → Struktur halaman.  
-- **CSS3** → Desain tampilan.  
-- **JavaScript** → Logika deteksi cahaya & kontrol lampu.  
+## 📌 Fitur Utama
+- Menggunakan kamera laptop untuk membaca intensitas cahaya.  
+- Lampu virtual otomatis:  
+  - 🔆 Menyala kalau ruangan gelap.  
+  - 🌑 Mati kalau ruangan terang.  
+- Tampilan sederhana, interaktif, dan mudah dipakai.  
+
+---
+
+## 🛠️ Teknologi
+- **HTML5** → struktur halaman  
+- **CSS3** → styling tampilan  
+- **JavaScript** → logika sensor dan kontrol lampu  
 
 ---
 
 ## 🚀 Cara Menjalankan
-1. Clone repository ini:
+1. Clone repo ini:
    ```bash
    git clone https://github.com/akmals06/FrontEnd-Kelompok-19.git
