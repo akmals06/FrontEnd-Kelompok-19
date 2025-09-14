@@ -6,8 +6,8 @@ Website yang kami buat berfungsi untuk **mensimulasikan sensor cahaya** dengan m
 ---
 
 ## 👥 Anggota Kelompok 19
-- Rifqy Aris Widiantoro  - 535240136
-- Akmal Fadhlul Rohman   - 535240205
+- Rifqy Aris Widiantoro  - **535240136**
+- Akmal Fadhlul Rohman   - **535240205**
 
 ---
 
