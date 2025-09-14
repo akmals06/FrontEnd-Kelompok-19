@@ -41,3 +41,4 @@ Website yang kami buat berfungsi untuk **mensimulasikan sensor cahaya** dengan m
 1. Clone repo ini:
    ```bash
    git clone https://github.com/akmals06/FrontEnd-Kelompok-19.git
+   cd sensor-cahaya
